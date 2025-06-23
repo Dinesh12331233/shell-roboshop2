@@ -43,4 +43,4 @@ systemctl restart nginx &>>$LOG_FILE
 VALIDATE $? "restarting nginx" 
 
 
-
+print_time
